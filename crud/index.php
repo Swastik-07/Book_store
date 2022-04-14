@@ -20,10 +20,10 @@ require_once ("../crud/php/operation.php");
     <link rel="stylesheet" href="style.css">
 
 </head>
-<body>
+<body class="container bg-dark">
 
 <main>
-    <div class="container text-center">
+    <div class="container text-center bg-light">
         <h1 class="py-4 bg-dark text-light rounded"><i class="fas fa-swatchbook"></i> Book Store</h1>
 
         <div class="d-flex justify-content-center">
@@ -55,7 +55,7 @@ require_once ("../crud/php/operation.php");
         <!-- Bootstrap table  -->
         <div class="d-flex table-data">
             <table class="table table-striped table-dark">
-                <thead class="thead-dark">
+                <thead class="thead-light">
                     <tr>
                         <th>ID</th>
                         <th>Book Name</th>
