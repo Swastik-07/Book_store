@@ -4,7 +4,7 @@ function Createdb(){
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $dbname = "bookstore";
+    $dbname = "bookstore1";
 
     // create connection
     $con = mysqli_connect($servername, $username, $password);
